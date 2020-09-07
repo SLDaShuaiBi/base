@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.vaneqi.mapper.UserMapper" >
+  <resultMap id="BaseResultMap" type="com.vaneqi.entity.User" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="u_id" property="uId" jdbcType="BIGINT" />
+    <result column="u_account" property="uAccount" jdbcType="VARCHAR" />
+    <result column="u_password" property="uPassword" jdbcType="VARCHAR" />
+    <result column="u_is_disable" property="uIsDisable" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>
